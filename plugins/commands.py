@@ -239,9 +239,9 @@ async def display_settings(bot, update, db, cb=False):
         buttons.append([InlineKeyboardButton(text="Tinyurl.com ❌", callback_data="set+tinyurl.com")])
     
     if await db.allow_domain(chat_id, domain="0x0.st"):
-        buttons.append([InlineKeyboardButton(text="0x0.st ✅", callback_data="set+0x0.st")])
+        buttons.append([InlineKeyboardButton(text="atglinks.com ✅", callback_data="set+atglinks.com")])
     else:
-        buttons.append([InlineKeyboardButton(text="0x0.st ❌", callback_data="set+0x0.st")])
+        buttons.append([InlineKeyboardButton(text="atglinks.com ❌", callback_data="set+atglinks.com")])
     
     if await db.allow_domain(chat_id, domain="ttm.sh"):
         buttons.append([InlineKeyboardButton(text="ttm.sh ✅", callback_data="set+ttm.sh")])

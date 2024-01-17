@@ -45,6 +45,7 @@ class Database:
                 "po.st": True,
                 "qps.ru": True,
                 "short.cm": True,
+                "atglinks.com": True,
                 "tinyurl.com": True,
                 "0x0.st": True,
                 "ttm.sh": True
